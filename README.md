@@ -1,4 +1,4 @@
 # sample
 this is my first repo
 <br>
-Author:Pankaj Kandari
+Author:Pankaj Kandari(Graphic Era Hill University)
