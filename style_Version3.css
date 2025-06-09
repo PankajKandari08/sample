@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  background: #fff;
+}
+.center-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.download-btn {
+  background-color: #3576b9;
+  color: #fff;
+  font-size: 1.3rem;
+  padding: 16px 40px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-family: 'Georgia', serif;
+  transition: background 0.2s, transform 0.1s;
+}
+.download-btn:hover, .download-btn:focus {
+  background-color: #28609b;
+  transform: scale(1.03);
+}
+@media (max-width: 600px) {
+  .download-btn {
+    padding: 12px 20px;
+    font-size: 1rem;
+  }
+}
